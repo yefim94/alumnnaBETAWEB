@@ -28,7 +28,19 @@ nav {
 .div_two {
   padding: 4em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-image: url("https://cdn.discordapp.com/attachments/829914581039579166/970727914515623966/hero.png");
+  background-size: cover;
+}
+.div_two button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #b576e5;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 10px;
 }
 .div_two h2 {
   margin-right: 2em;
@@ -36,22 +48,13 @@ nav {
 }
 .div_two img {
   border-radius: 20px;
-  width: 500px;
+  width: 400px;
 }
-.div_one button{
-  border: none;
-  outline: none;
-  border-radius: 10px;
-  color: #fff;
-  background-color: #B45CF9;
-  font-weight: 700;
-  font-size: 17px;
-  padding: 10px;
-}
-.div_one a {
+.div_two a {
   color: #fff;
   text-decoration: none;
 }
+
 .div_three h2 {
   text-align: center;
   font-size: 3em;
@@ -62,11 +65,14 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #FEF3E4;
+  background-color: #b576e5;
 }
 .div_three img {
  border-radius: 20px;
  box-shadow: 10px 10px;
+}
+.left-side {
+  margin-right: 20px;
 }
 .div_four {
   background-color: #8BF45B;
